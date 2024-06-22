@@ -1,0 +1,8 @@
+[package]
+name = "http_delay"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = { version = "0.4.38", features = ["serde"] }
+reqwest = { version = "0.12.5", features = ["blocking"] }
